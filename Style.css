@@ -1,0 +1,57 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.full {
+    width: 100%;
+    background-color: #95a5a6;
+    max-width: 980px;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+div.banner img {
+    width: 85%;
+    padding: 10px 10px 20px 10px;
+    margin-top: 40px;
+}
+
+.banner {
+    width: 200px;
+    height: 300px;
+    background-color: #fff;
+    margin: 20px;
+    box-shadow: 0 10px 15px 0;
+    display: inline-block;
+    border-radius: 3px;
+}
+
+.container {
+    text-align: justify;
+    float: left;
+    background-color: #eee;
+    padding: 35px 20px 0 21px;
+    border-radius: 3px;
+}
+
+.sp {
+    text-align: right;
+    background-color: #eee;
+    padding: 10px;
+}
+
+div.sp:hover {
+    color: red;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.banner:hover {
+    opacity: .8;
+    transition: .5s;
+}
+
+h3 {
+    color: red;
+}
